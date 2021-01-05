@@ -24,13 +24,12 @@ struct ContentView: View {
 }
 `````
 
-#### Step 2. Create UIHostingController passing in ContentView() as the rootView
+#### Step 2. Set the current playground page live view to the ContentView()
 
 If you want to see the view presented, you need to add the following code after your ContentView struct
 
 `````swift
-let viewController = UIHostingController(rootView: ContentView())
-PlaygroundPage.current.liveView = viewController
+PlaygroundPage.current.setLiveView(ContentView())
 `````
 
 Now when you run your playground, you will see the content view displayed to the right.
