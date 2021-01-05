@@ -1,6 +1,6 @@
 # PlaygroundViewModifier
 
-![PlaygroundModifier](/Users/slynch/Dropbox/WIWIK Videos/PlaygroundViewModifier/README.assets/PlaygroundModifier.gif)
+![PlaygroundModifier](README.assets/PlaygroundModifier.gif)
 
 You can import PlaygroundSupport and SwiftUI to your Xcode playgrounds and then create a SwiftUIView like this
 #### Step 1. Import PlayGroundSupport and SwiftUI
@@ -35,7 +35,7 @@ PlaygroundPage.current.liveView = viewController
 
 Now when you run your playground, you will see the content view displayed to the right.
 
-![image-20210104155653728](/Users/slynch/Dropbox/WIWIK Videos/PlaygroundViewModifier/README.assets/image-20210104155653728.png)
+![image-20210104155653728](README.assets/image-20210104155653728.png)
 
 The problem is that the frame does not represent any particular iPhone as you see on the canvas when you are running a full XCode project.
 
