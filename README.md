@@ -71,27 +71,5 @@ Now you can apply this modifier as the last modifier of your body content, passi
 .playgroundPhone(.iPhone12ProMax)
 `````
 
-`````swift
-import UIKit
-import PlaygroundSupport
-import SwiftUI
-
-
-struct ContentView: View {
-    var body: some View {
-            VStack {
-                Text("SwiftUI in a Playground")
-                Button(action: {print("tapped")},
-                       label: {
-                    Label("Tap Me",
-                          systemImage: "hand.point.up.left.fill")
-                        .font(.title2)
-                })
-            }
-            .playgroundPhone(.iPhone12ProMax)
-    }
-}
-let viewController = UIHostingController(rootView: ContentView())
-PlaygroundPage.current.liveView = viewController
-`````
+![image-20210104165850205](README.assets/image-20210104165850205.png)
 
