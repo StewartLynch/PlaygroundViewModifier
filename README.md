@@ -26,6 +26,8 @@ struct ContentView: View {
 
 #### Step 2. Set the current playground page live view to the ContentView()
 
+> **Note:** in an earlier version of this, I used a UIHostingViewController.  This is not necessary,  You can now just use setLiveView()
+
 If you want to see the view presented, you need to add the following code after your ContentView struct
 
 `````swift
